@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Credit.Models;
+using Newtonsoft.Json;
 using System;
 
 namespace CreditIssuer.Models
@@ -63,7 +64,7 @@ namespace CreditIssuer.Models
     public partial class RequestedCredit
     {
         [JsonProperty("CreditType")]
-        public long CreditType { get; set; }
+        public CreditType CreditType { get; set; }
 
         [JsonProperty("RequestedAmount")]
         public long RequestedAmount { get; set; }
@@ -82,5 +83,5 @@ namespace CreditIssuer.Models
 
         [JsonProperty("Comment")]
         public string Comment { get; set; }
-    }
+    }    
 }

@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditEvaluator", "CreditEv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditEvaluator.Bll", "CreditEvaluator.Bll\CreditEvaluator.Bll.csproj", "{DAB293B0-902D-4E86-BA7B-F03D648C6E81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditIssuer.Models", "CreditIssuer.Models\CreditIssuer.Models.csproj", "{A15AD843-48C2-415E-99B7-D4ED03F76E88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credit.Models", "CreditIssuer.Models\Credit.Models.csproj", "{A15AD843-48C2-415E-99B7-D4ED03F76E88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

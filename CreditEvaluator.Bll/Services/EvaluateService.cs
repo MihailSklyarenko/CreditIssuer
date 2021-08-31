@@ -1,5 +1,4 @@
 ﻿using CreditEvaluator.Bll.Interfaces;
-using CreditEvaluator.Bll.Models;
 using CreditIssuer.Models;
 
 namespace CreditEvaluator.Bll.Services
