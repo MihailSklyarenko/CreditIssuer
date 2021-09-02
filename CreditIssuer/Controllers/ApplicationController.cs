@@ -1,4 +1,4 @@
-﻿using CreditIssuer.Models;
+﻿using CreditIssuer.Bll.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
@@ -10,7 +10,7 @@ namespace CreditIssuer.Controllers
     {
 
         [HttpPost("create")]
-        public IEnumerable<string> Create([FromBody] CreditRequest request)
+        public IEnumerable<string> Create([FromBody] CreditRequestDto request)
         {
             return null;
         }
